@@ -1,0 +1,14 @@
+init_config: ~
+instances: 
+  - 
+    rabbitmq_api_url: "http://172.17.42.1:15672/api/"
+nodes: 
+  - rabbit@127.0.0.1
+queues: 
+  - slots
+  - ads
+  - visits
+  - pages
+  - js_errors
+rabbitmq_pass:  
+rabbitmq_user: admin
