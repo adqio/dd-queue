@@ -10,5 +10,5 @@ queues:
   - visits
   - pages
   - js_errors
-rabbitmq_pass:  
 rabbitmq_user: admin
+rabbitmq_pass: password 
