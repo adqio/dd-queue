@@ -9,6 +9,7 @@ nodes:
 queues: 
   - slots
   - ads
+  - event
   - visits
   - pages
   - js_errors
